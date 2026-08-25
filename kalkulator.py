@@ -34,12 +34,11 @@ while kalkulator_on:
             break 
         print("Operator tidak valid! Masukkan ('+', '-', '*', '/') atau 'q'\n")
 
-    # Langsung keluar jika memilih 'q'
+
     if pilih_operator == "q":
         print("Terima kasih telah menggunakan kalkulator!")
         break
 
-    # Eksekusi operasi aritmatika
     if pilih_operator == "+":
         hasil = tambah(num1, num2)
         print(f"Hasil dari Pertambahan {num1} + {num2} = {hasil}")
